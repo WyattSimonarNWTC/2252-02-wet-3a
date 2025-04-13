@@ -3,3 +3,7 @@
 *::after {
     box-sizing: border-box;
 }
+
+.page-name {
+	font-size: 0.8em;
+}
