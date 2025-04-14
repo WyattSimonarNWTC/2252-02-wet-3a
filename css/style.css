@@ -33,3 +33,10 @@ body {
 .page-name {
 	font-size: 0.8em;
 }
+
+header,
+nav,
+main,
+footer {
+	margin: 10%;
+}
