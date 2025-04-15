@@ -6,8 +6,8 @@
 
 :root {
 	--color-theme-01: oklch(73.9% 0.187 36.53);
-	--color-theme-02: oklch(from var(--color-theme-01) calc(l - 6.8%) c h);
-	--color-theme-03: oklch(from var(--color-theme-01) calc(l - 14.9%) c h);
+	--color-theme-02: oklch(from var(--color-theme-01) calc(l - 6.8) c h);
+	--color-theme-03: oklch(from var(--color-theme-01) calc(l - 14.9) c h);
 	--color-theme-04: oklch(61.32% 0.207 29.12);
 	--color-theme-05: oklch(61.32% 0.207 35.235);
 	--color-theme-06: oklch(73.68% 0.155 35.235);
@@ -28,7 +28,7 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	max-width: 1000px;
-	background-color: var(--color-theme-06);
+	background-color: var(--color-theme-01);
 }
 
 .page-name {
@@ -40,6 +40,17 @@ nav,
 main,
 footer {
 	margin: 10px;
+}
+
+h1,
+h2,
+h3 {
+	font-variant-caps: small-caps;
+}
+
+header {
+	background-color: var(--color-theme-08);
+	color: var(--color-theme-03);
 }
 
 footer {
