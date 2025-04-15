@@ -54,6 +54,7 @@ h3 {
 header {
 	background-color: var(--color-theme-08);
 	color: var(--color-theme-03);
+	border: 5px solid;
 }
 
 footer {
