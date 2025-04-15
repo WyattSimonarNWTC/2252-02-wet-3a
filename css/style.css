@@ -6,8 +6,11 @@
 
 :root {
 	--color-theme-01: oklch(73.9% 0.187 36.53);
-	--color-theme-02: oklch(from var(--color-theme-01) calc(l - 6.8) c h);
-	--color-theme-03: oklch(from var(--color-theme-01) calc(l - 14.9) c h);
+}
+
+:root {
+	--color-theme-02: oklch(from var(--color-theme-01) calc(l - 6.8%) c h);
+	--color-theme-03: oklch(from var(--color-theme-01) calc(l - 14.9%) c h);
 	--color-theme-04: oklch(61.32% 0.207 29.12);
 	--color-theme-05: oklch(61.32% 0.207 35.235);
 	--color-theme-06: oklch(73.68% 0.155 35.235);
