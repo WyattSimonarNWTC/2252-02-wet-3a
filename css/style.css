@@ -77,11 +77,17 @@ main {
 	color: black;
 }
 
+.error-heading {
+	text-align: center;
+	width: 100%;
+}
+
 .error-icon {
 	max-width: 500px;
 	margin-left: auto;
 	margin-right: auto;
 	background-image: radial-gradient(circle at center, white 0, white 65%, black 0, black 70%, oklch(0% 0 0 / 0%) 0);
+	justify-self: center;
 }
 
 .error-text {
