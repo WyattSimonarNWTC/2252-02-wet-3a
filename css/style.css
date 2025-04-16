@@ -64,9 +64,12 @@ header {
 	padding-left: 10px;
 }
 
+header > h1 {
+	line-height: 0.8;
+}
+
 .header-icon {
-	max-height: 250px;
-	height: 4em;
+	height: 6em;
 	width: auto;
 	background-image: radial-gradient(circle at center, white 0, white 80%, black 0, black 85%, oklch(0% 0 0 / 0%) 0);
 }
