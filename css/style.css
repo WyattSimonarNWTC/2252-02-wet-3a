@@ -53,8 +53,39 @@ h3 {
 
 header {
 	background-color: var(--color-theme-08);
-	color: var(--color-theme-03);
+	color: var(--color-theme-04);
 	border: 5px solid;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-items: center;
+	justify-content: left;
+	gap: 10px;
+	padding-left: 10px;
+}
+
+.header-icon {
+	max-height: 50px;
+	height: 2rem;
+	width: auto;
+	background-image: radial-gradient(circle at center, white 0, white 90%, black 0, black 95%, oklch(0% 0 0 / 0%) 0);
+}
+
+main {
+	width: 100%;
+	color: black;
+}
+
+.error-icon {
+	max-width: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: radial-gradient(circle at center, white 0, white 90%, black 0, black 95%, oklch(0% 0 0 / 0%) 0);
+}
+
+.error-text {
+	text-align: center;
+	width: 100%;
 }
 
 footer {
