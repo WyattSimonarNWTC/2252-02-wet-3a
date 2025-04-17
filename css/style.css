@@ -52,7 +52,7 @@ h3 {
 
 header {
 	background-color: var(--color-theme-08);
-	color: var(--color-theme-05);
+	color: black;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
@@ -116,25 +116,25 @@ footer {
 }
 
 a {
-	color: aliceblue;
+	color: midnightblue;
 }
 
 a:link {
-	color: aliceblue;
+	color: midnightblue;
 }
 
 a:visited {
-	color: aliceblue;
+	color: midnightblue;
 }
 
 a:hover {
-	color: aliceblue;
+	color: midnightblue;
 }
 
 a:focus {
-	color: aliceblue;
+	color: midnightblue;
 }
 
 a:active {
-	color: aliceblue;
+	color: midnightblue;
 }
