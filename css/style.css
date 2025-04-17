@@ -114,3 +114,27 @@ footer {
 .underline {
 	text-decoration: underline;
 }
+
+a {
+	color: aliceblue;
+}
+
+a:link {
+	color: aliceblue;
+}
+
+a:visited {
+	color: aliceblue;
+}
+
+a:hover {
+	color: aliceblue;
+}
+
+a:focus {
+	color: aliceblue;
+}
+
+a:active {
+	color: aliceblue;
+}
