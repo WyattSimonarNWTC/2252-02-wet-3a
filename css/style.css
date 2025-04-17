@@ -98,3 +98,19 @@ main {
 footer {
 	padding-bottom: 10px;
 }
+
+.small-caps {
+	font-variant-caps: small-caps;
+}
+
+.bolded {
+	font-weight: bold;
+}
+
+.italics {
+	font-style: italic;
+}
+
+.underline {
+	text-decoration: underline;
+}
